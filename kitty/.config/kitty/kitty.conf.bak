@@ -1,0 +1,21 @@
+# --- 見た目の設定 ---
+# 背景を少し透かしてオシャレに (0.8〜0.9がおすすめ)
+background_opacity 0.9
+
+
+# --- 144Hzモニターへの最適化 ---
+# 描画遅延を最小限にする (144fpsに合わせる)
+#repaint_delay 7
+#input_delay 2
+#sync_to_monitor yes
+
+# --- 操作性の向上 ---
+# スクロールバックの行数を増やす（過去のログをたくさん保持）
+#scrollback_lines 5000
+
+# ターミナルのベル音を消す（集中力を削がない）
+enable_audio_bell no
+
+#フォントの設定
+font_family JetBrainsMono Nerd Font
+font_size 14.0
