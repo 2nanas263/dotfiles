@@ -34,6 +34,7 @@ alias lt='eza --tree --level=2 --icons'
 # 補完メニューを矢印キーで選択可能にし、色を付ける
 zstyle ':completion:*' menu select
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+# XP-PEN公式ドライバーの設定
 alias tab='sudo QT_QPA_PLATFORM=offscreen /usr/lib/pentablet/PenTablet --no-gui > /dev/null 2>&1 &'
 
 # Created by `pipx` on 2026-07-11 13:43:40
