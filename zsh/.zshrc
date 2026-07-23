@@ -39,3 +39,6 @@ alias tab='sudo QT_QPA_PLATFORM=offscreen /usr/lib/pentablet/PenTablet --no-gui 
 
 # Created by `pipx` on 2026-07-11 13:43:40
 export PATH="$PATH:/home/akari272/.local/bin"
+
+# zoxideの設定
+evaL "$(zoxide init zsh)"
